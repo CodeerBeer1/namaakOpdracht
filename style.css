@@ -1,0 +1,284 @@
+
+
+
+/*FONTS*/
+
+	@font-face {
+		font-family: roboto;
+		src: url(Roboto-Black.ttf);
+	}
+
+	@font-face {
+		font-family: robotomedium;
+		src: url(Roboto-Medium.ttf)
+	}
+
+/*FONTS*/
+
+
+
+/*PAGINA'S*/
+
+	.pagina {
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+	.napagina {
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+/*PAGINA'S*/
+
+
+
+/*NAVBAR*/
+
+	.navbardiv {
+		position: fixed;
+		background-color: black;
+		width: 200px;
+		height: 260px;
+		top: 0px;
+		left: 0px;
+	}
+
+	.navbar {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+
+	.navbar button {
+		border: none;
+		outline: none;
+		background-color: #5b0000;
+		width: 200px;
+		font-size: 20px;
+		margin-top: 10px;
+		padding: 25px;
+		transition: .2s;
+	}
+
+	button a {
+		text-decoration: none;
+		color: white;
+	}
+
+	li:hover a {
+		color: black;
+	}
+
+	li:hover .gehaktbroodknop {
+		margin-left: 20px;
+		background-color: orange;
+		transition: .2s;
+		cursor: pointer;
+	}
+
+	li:hover .voorknop {
+		margin-left: 20px;
+		background-color: orange;
+		transition: .2s;
+		cursor: pointer;
+	} 
+
+	li:hover .naknop {
+		margin-left: 20px;
+		background-color: orange;
+		transition: .2s;
+		cursor: pointer;
+	} 
+
+/*NAVBAR*/
+
+
+
+/*TITELS*/
+
+	.gehaktbroodtitel {
+		font-size: 36px; line-height: 36px;
+		font-family: roboto;
+	}
+
+	hr {
+		height: 1px;
+	}
+
+	.gehaktbroodinfo {
+		font-size: 24px; line-height: 36px;
+		font-family: robotomedium;
+		margin-bottom: 0px;
+		padding-bottom: 20px;
+	}
+
+	.nuttitel {
+		font-size: 36px; line-height: 36px;
+		font-family: roboto;
+	}
+
+	.nuttext {
+		font-size: 24px; line-height: 36px;
+		font-family: robotomedium;
+		margin-bottom: 0px;
+		padding-bottom: 20px;
+	}
+
+	.champtitel {
+		font-size: 36px; line-height: 36px;
+		font-family: roboto;
+	}
+
+	.champtext {
+		font-size: 24px; line-height: 36px;
+		font-family: robotomedium;
+		margin-bottom: 0px;
+		padding-bottom: 20px;
+	}
+
+/*TITELS*/
+
+
+
+/*INGREDIENTEN*/
+
+	.ingrediententitel {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+
+	.ingredientenlijst {
+		font-size: 20px; line-height: 26px;
+		font-family: robotomedium;
+	}
+
+	.ingredientenlijst li {
+		padding-bottom: 10px;
+	}
+
+	.nutingrid {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+
+	.nutingridlijst {
+		font-size: 20px; line-height: 26px;
+		font-family: robotomedium;
+	}
+
+	.nutingridlijst li {
+		padding-bottom: 10px;
+	}
+
+	.champingrid {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 20px;	
+	}
+
+	.champingridlijst {
+		font-size: 20px; line-height: 26px;
+		font-family: robotomedium;
+	}
+
+	.champingridlijst {
+		padding-bottom: 10px;
+	}
+
+/*INGREDIENTEN*/
+
+
+
+/*BEREIDINGSWIJZE*/
+
+	.bereidingswijzetitel {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 30px;
+	}
+
+	.bereidingswijzelijst {
+		font-size: 20px; line-height: 32px;
+		font-family: robotomedium;
+	}
+
+	.bereidingswijzelijst li {
+		padding-bottom: 20px;
+	}
+
+	.nutbereiding {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 30px;
+	}
+
+	.nutbereidingtext {
+		font-size: 20px; line-height: 32px;
+		font-family: robotomedium;
+		padding-bottom: 20px;
+	}
+
+	.champbereiding {
+		font-size: 32px; line-height: 32px;
+		font-family: roboto;
+		margin-top: 0px;
+		padding-top: 30px;
+	}
+
+	.champbereidingtext {
+		font-size: 20px; line-height: 32px;
+		font-family: robotomedium;
+		padding-bottom: 20px;
+	}
+
+/*BEREIDINGSWIJZE*/
+
+
+
+/*PLAATJES*/
+
+	.gehaktbroodplaatje {
+		width: 800px;
+		height: 800px;
+		padding-bottom: 40px;
+	}
+
+	.nutplaatje {
+		width: 1000px;
+		height: 500px;
+		padding-bottom: 40px;
+	}
+
+	.champlaatje {
+		width: 1000px;
+		height: 500px;
+		padding-bottom: 40px;
+	}
+
+/*PLAATJES*/
+
+
+
+/*FOOTERDING*/
+
+	.footer {
+		font-size: 20px; line-height: 32px;
+		font-family: robotomedium;
+		background-color: #def6ed;
+		border-radius: 4px;
+		padding: 25px;
+	}
+
+	.footer span {
+		font-weight: bold;
+	}
+
+/*FOOTERDING*/
